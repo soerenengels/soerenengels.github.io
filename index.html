@@ -1,43 +1,54 @@
-<html>
+<!doctype html>
+  <html>
     <head>
-        <title>testing github pages</title>
-        <style type="text/css">
-            * { margin: 0; padding: 0;}
-            @import url('https://fonts.googleapis.com/css?family=Roboto');
-            html {
-                font-family: "Roboto", sans-serif;
-            }
-            body > header {
-                width: 100%;
-                height: 175px;
-                background-color: aquamarine;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-            h1 { text-align: center;}
-            body > section {
-                display: flex;
-            }
-        </style>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>061 ZINE</title>
     </head>
+
     <body>
+      <div>
         <header>
-            <h1>testing github pages</h1>
+          <img src="images/061zine.png" alt="Logo von 061 Zine">
         </header>
+        <nav>
+          <ul>
+            <li><a href="">RSS</a></li>
+            <li><a href="">Cookies</a></li>
+            <li><a href="">Datenschutz</a></li>
+            <li><a href="">Impressum</a></li>
+          </ul>
+        </nav>
         <section>
-            <header><h1>Hello World</h1></header>
-            <section>
-                <p>
-                    some paragraph
-                </p>
-                <p>
-                    another one
-                </p>
-                <p>
-                    and one more
-                </p>
-            </section>
+          <article class="bluetext">
+            <h2>Kurze Meldung</h2>
+            <br>
+            <p>
+              WTF?! Was ist das hier für ein Mist? Dieser Text steht beispielhaft für einen sinnvollen Text, der aber erst noch geschrieben werden muss.
+            </p>
+            <br>
+            <p>
+              Und das hier ist ein zweiter Absatz mit Abstand zum ersten.
+            </p>
+          </article>
+          <article class="yellowimage">
+            <h2>Boom Bam</h2>
+            <p>
+              Auf dem Bild sieht man Dinge, die man besser nicht gesehen hätte.
+            </p>
+            <p class="source">
+              Bildquelle: Internet
+            </p>
+            <img src="images/image1.jpg" alt="Laternen vor Sonnenuntergang">
+          </article>
+          <article class="redshortnote">
+            <h2>Shortnote</h2>
+            <p>
+              Es ist wieder Sommer und in und um Halle brennen die Felder. Jan Möbius hat für die Städtische Zeitung ein Foto geschossen. <a href="https://staedtische-zeitung.de/2018/07/bild-des-tages-1-juli-2018/">Link zum Bild</a>
+            </p>
+          </article>
         </section>
+      </div>
     </body>
-</html>
+  </html>
