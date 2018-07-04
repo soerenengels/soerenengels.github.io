@@ -1,0 +1,127 @@
+* { margin: 0; padding: 0;}
+html, body {
+  font-family: "Futura", sans-serif;
+  font-size: 14px;
+  width: 100%;
+
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+p {
+  margin-bottom: .9em;
+  text-transform: uppercase;
+  hyphens: auto;
+}
+.source {
+  font-style: italic;
+  font-size: .6em;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+header img {
+  text-align: center;
+  height: 150px;
+  width: auto;
+}
+nav {
+  order: 99;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  text-decoration: none;
+  color: darkgrey;
+}
+nav a:hover {
+  color: lightgrey;
+  text-decoration: underline;
+}
+nav a:visited {
+  text-decoration: line-through;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+article {
+  margin: 5%;
+  padding: 5%;
+  box-shadow: 5px -5px 25px #888888;
+}
+
+.bluetext {
+  background-color: blue;
+  padding: 5%;
+}
+.bluetext h2 {
+  background-color: white;
+  padding: .5em .9em;
+  position: relative;
+  top: -2em;
+  box-shadow: 5px -5px 25px #888888;
+}
+
+.bluetext p {
+  /*background-color: white;*/
+  color: white;
+  line-height: 2em;
+  padding: .8em;
+}
+.yellowimage {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+  margin-left: 4em;
+}
+.yellowimage p, .yellowimage h2 {
+  padding: 0 5%;
+}
+.yellowimage p {
+  line-height: 1.5em;
+}
+.yellowimage img {
+  max-width: 75%;
+  height: auto;
+  order: -1;
+  position: relative;
+  top: -5em;
+  left: 4em;
+  margin-bottom: -3em;
+  box-shadow: 5px -5px 25px #888888;
+}
+.redshortnote {
+  background-color: red;
+  color: white;
+  padding-top: 35%;
+  padding-bottom: 15%;
+}
+.redshortnote h2, .redshortnote p {
+  width: 65%;
+  padding-left: 10%;
+}
+.redshortnote p {
+  line-height: 1.7em;
+}
